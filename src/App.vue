@@ -6,6 +6,7 @@
     </header>
     <main>
       <BannerPlain/>
+      <CirclesSection/>
     </main>
     <Footer/>
 
@@ -16,6 +17,7 @@
 import Navbar from './components/Navbar.vue'
 import Jumbo from './components/Jumbo.vue'
 import BannerPlain from './components/BannerPlain.vue'
+import CirclesSection from './components/CirclesSection.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -25,6 +27,7 @@ export default {
     Jumbo,
     Footer,
     BannerPlain,
+    CirclesSection,
   }
 }
 </script>
