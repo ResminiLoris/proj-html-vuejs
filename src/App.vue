@@ -7,6 +7,9 @@
     <main>
       <BannerPlain/>
       <CirclesSection/>
+      <SliderSection/>
+      <SectionTitle/>
+      <Text2cols/>
     </main>
     <Footer/>
 
@@ -18,6 +21,9 @@ import Navbar from './components/Navbar.vue'
 import Jumbo from './components/Jumbo.vue'
 import BannerPlain from './components/BannerPlain.vue'
 import CirclesSection from './components/CirclesSection.vue'
+import SliderSection from './components/SliderSection.vue'
+import SectionTitle from './components/SectionTitle.vue'
+import Text2cols from './components/Text2cols.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -28,6 +34,9 @@ export default {
     Footer,
     BannerPlain,
     CirclesSection,
+    SliderSection,
+    SectionTitle,
+    Text2cols,
   }
 }
 </script>
