@@ -90,7 +90,7 @@ export default {
                 cursor: pointer;
                 color: #56509F;
                 &:hover{
-                    background-color:#FE6500;
+                    background-color:#FE6601;
                 }
                 figcaption{
                     padding-top: 10px;

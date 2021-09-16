@@ -2,7 +2,11 @@
   <div id="app">
     <header>
       <Navbar/>
+      <Jumbo/>
     </header>
+    <main>
+      <BannerPlain/>
+    </main>
     <Footer/>
 
   </div>
@@ -10,13 +14,17 @@
 
 <script>
 import Navbar from './components/Navbar.vue'
+import Jumbo from './components/Jumbo.vue'
+import BannerPlain from './components/BannerPlain.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Navbar,
+    Jumbo,
     Footer,
+    BannerPlain,
   }
 }
 </script>
