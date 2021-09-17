@@ -16,6 +16,10 @@
       <Jumbo2/>
       <SectionTitle2/>
       <News/>
+      <Map/>
+      <SectionTitle3/>
+      <Contacts/>
+      <Form/>
     </main>
     <Footer/>
 
@@ -36,6 +40,10 @@ import BannerImages from './components/BannerImages.vue'
 import Jumbo2 from './components/Jumbo2.vue'
 import SectionTitle2 from './components/SectionTitle2.vue'
 import News from './components/News.vue'
+import Map from './components/Map.vue'
+import SectionTitle3 from './components/SectionTitle3.vue'
+import Contacts from './components/Contacts.vue'
+import Form from './components/Form.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -55,6 +63,10 @@ export default {
     Jumbo2,
     SectionTitle2,
     News,
+    Map,
+    SectionTitle3,
+    Contacts,
+    Form,
   }
 }
 </script>
