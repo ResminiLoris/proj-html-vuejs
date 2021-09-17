@@ -1,7 +1,7 @@
 <template>
   <section id="main-section">
-    <div class="container">
-      <div class="row pt-5 pb-5">
+    <div class="container pb-5 pt-5">
+      <div class="row ">
         <!-- sx (text) -->
         <div class="col-6 p-0">
           <h2 class="text-sec pb-4">We have been educating children for over fifteen years. Our goal is to create a place that engages each child</h2>
@@ -103,7 +103,7 @@ li{
 
 .img-container{
   background-color: #fff;
-  left: 37%;
+  left: 38%;
   height: 72px;
   width: 72px;
   img{
