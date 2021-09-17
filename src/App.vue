@@ -14,6 +14,8 @@
       <Checklist/>
       <Banner-images/>
       <Jumbo2/>
+      <SectionTitle2/>
+      <News/>
     </main>
     <Footer/>
 
@@ -32,6 +34,8 @@ import Cards from './components/Cards.vue'
 import Checklist from './components/Checklist.vue'
 import BannerImages from './components/BannerImages.vue'
 import Jumbo2 from './components/Jumbo2.vue'
+import SectionTitle2 from './components/SectionTitle2.vue'
+import News from './components/News.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -49,6 +53,8 @@ export default {
     Checklist,
     BannerImages,
     Jumbo2,
+    SectionTitle2,
+    News,
   }
 }
 </script>
