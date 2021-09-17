@@ -13,6 +13,7 @@
       <Cards/>
       <Checklist/>
       <Banner-images/>
+      <Jumbo2/>
     </main>
     <Footer/>
 
@@ -30,6 +31,7 @@ import Text2cols from './components/Text2cols.vue'
 import Cards from './components/Cards.vue'
 import Checklist from './components/Checklist.vue'
 import BannerImages from './components/BannerImages.vue'
+import Jumbo2 from './components/Jumbo2.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -46,6 +48,7 @@ export default {
     Cards,
     Checklist,
     BannerImages,
+    Jumbo2,
   }
 }
 </script>

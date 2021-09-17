@@ -10,7 +10,7 @@
                     <img class="img-fluid" src="../assets/img/banner2.jpg" alt="">
                 </div>
                 <div class="image col-3 p-0">
-                    <img class="img-fluid h-100" src="../assets/img/banner3.jpg" alt="">
+                    <img class="img-fluid" src="../assets/img/banner3.jpg" alt="">
                 </div>
                 <div class="image col-3 p-0">
                     <img class="img-fluid" src="../assets/img/banner4.jpg" alt="">
@@ -44,7 +44,6 @@ export default {
 <style scoped lang="scss">
     .banner{
         .banner-images{
-            height: 70%;
             .image{
                 height: 100%;
             }
