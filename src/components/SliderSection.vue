@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-5 pb-5">
+  <section class="pt-5 mb-5">
       <div class="container">
           <div class="row">
                 <div class="col-6">
@@ -75,6 +75,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/assets/scss/_vars.scss";
+
     section{
         background-color: #E8E6E7;
     }
@@ -87,7 +89,7 @@ export default {
         border-bottom: 1px solid gray;
     }
    .circle{
-       background-color: #FE6500;
+       background-color: $main-color;
        height: 100px;
        width: 100px;
        border-radius: 50%;
@@ -100,7 +102,7 @@ export default {
        }
    }
    .text-purle{
-       color: #56509F;
+       color: $secondary-color;
    }
    
    

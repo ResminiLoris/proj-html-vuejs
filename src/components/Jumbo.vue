@@ -4,8 +4,8 @@
         <div class="container">
             <div class="text">
                 <span class="orange">Friendly Atmosphere</span>
-                <h2 class="title purple">Welcoming Place</h2>
-                <span class="purple d-block">For Every Child</span>
+                <h2 class="title secondary-clr">Welcoming Place</h2>
+                <span class="secondary-clr d-block">For Every Child</span>
                 <div class="btn-orange fs-5">Buy this theme now</div>
             </div>
         </div>
@@ -24,6 +24,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "@/assets/scss/_vars.scss";
+
     .jumbo{
         height: 600px;
         background-image: linear-gradient(to top,#E8E6E7 0, #E8E6E7 20%, white 30%, #DDEDFA 80% );
@@ -33,10 +35,10 @@ export default {
             position: absolute;
             top: 35%;
                 .orange{
-                    color: #FE6601;
+                    color: $main-color;
                 }
-                .purple{
-                    color: #554E9E;
+                .secondary-clr{
+                    color: $secondary-color;
                 }
                 .title{
                     font-size: 60px;
@@ -45,10 +47,10 @@ export default {
                     color: white;
                     display: inline-block;
                     padding: 10px 20px;
-                    background-color: #FE6601;
+                    background-color: $main-color;
                     cursor: pointer;
                     &:active{
-                        background-color: #C34937;
+                        background-color: $secondary-color;
                     }
                 }
         }

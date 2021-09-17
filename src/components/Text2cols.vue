@@ -2,7 +2,7 @@
     <div class="container pb-5">
         <section class="row">
             <div class="col-6">
-                <h2 class="text-purple">
+                <h2 class="text-sec">
                     We provided four classes with nine to twenty children each aged twelve month to five years of age.
                 </h2>
             </div>
@@ -21,6 +21,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "@/assets/scss/_vars.scss";
 
+.text-sec{
+    color: $secondary-color;
+}
 </style>

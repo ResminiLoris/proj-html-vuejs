@@ -10,6 +10,8 @@
       <SliderSection/>
       <SectionTitle/>
       <Text2cols/>
+      <Cards/>
+      <checklist/>
     </main>
     <Footer/>
 
@@ -24,6 +26,8 @@ import CirclesSection from './components/CirclesSection.vue'
 import SliderSection from './components/SliderSection.vue'
 import SectionTitle from './components/SectionTitle.vue'
 import Text2cols from './components/Text2cols.vue'
+import Cards from './components/Cards.vue'
+import Checklist from './components/Checklist.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -37,11 +41,15 @@ export default {
     SliderSection,
     SectionTitle,
     Text2cols,
+    Cards,
+    Checklist,
   }
 }
 </script>
 
 <style lang="scss">
+@import "@/assets/scss/_vars.scss";
+
 *{
   margin: 0;
   padding: 0;

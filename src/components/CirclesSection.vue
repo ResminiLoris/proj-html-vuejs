@@ -11,7 +11,7 @@
                 <!-- card 1 -->
                 <div class="col-3">
                     <div class="card border-0" style="width: 18rem;">
-                        <div class="img-container bg-orange rounded-circle">
+                        <div class="img-container bg-main rounded-circle">
                             <img src="../assets/img/schoolbag_alt.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body text-center">
@@ -23,7 +23,7 @@
                 <!-- card 2 -->
                 <div class="col-3">
                      <div class="card border-0" style="width: 18rem;">
-                        <div class="img-container bg-purple rounded-circle">
+                        <div class="img-container bg-sec rounded-circle">
                             <img src="../assets/img/schoolbag_alt.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body text-center">
@@ -35,7 +35,7 @@
                 <!-- card 3 -->
                 <div class="col-3">
                      <div class="card border-0" style="width: 18rem;">
-                        <div class="img-container bg-orange rounded-circle">
+                        <div class="img-container bg-main rounded-circle">
                             <img src="../assets/img/schoolbag_alt.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body text-center">
@@ -47,7 +47,7 @@
                 <!-- card 4 -->
                 <div class="col-3">
                      <div class="card border-0" style="width: 18rem;">
-                        <div class="img-container bg-purple rounded-circle">
+                        <div class="img-container bg-sec rounded-circle">
                             <img src="../assets/img/schoolbag_alt.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card-body text-center">
@@ -67,7 +67,10 @@ export default {
 }
 </script>
 
+
 <style  lang="scss">
+@import "@/assets/scss/_vars.scss";
+
     .img-container{
         position: relative;
         left: 25%;
@@ -83,13 +86,13 @@ export default {
         }
     }
         .text-purple{
-            color: #56509F;
+            color: $secondary-color;
         }
-        .bg-orange{
-            background-color: #FE6500;
+        .bg-main{
+            background-color: $main-color;
         }
-        .bg-purple{
-            background-color: #56509F;
+        .bg-sec{
+            background-color: $secondary-color;
         }
         .text-big{
             font-size: 50px;

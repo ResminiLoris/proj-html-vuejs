@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="container">
       <div class="row">
           <div class="col-12 text-center pt-4 pb-4">
                     <h2 class="text-purple text-big">Our Classes</h2>

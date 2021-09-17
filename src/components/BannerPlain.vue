@@ -20,8 +20,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/assets/scss/_vars.scss";
+
   .banner{
-    background-color: #56509F;
+    background-color: $main-color;
     height: 150px;
     .btn-transparent{
       color: white;

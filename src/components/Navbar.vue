@@ -72,6 +72,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/assets/scss/_vars.scss";
 
     #main-row{
         height: 150px;
@@ -90,7 +91,7 @@ export default {
                 cursor: pointer;
                 color: #56509F;
                 &:hover{
-                    background-color:#FE6601;
+                    background-color:$main-color;
                 }
                 figcaption{
                     padding-top: 10px;
